@@ -1,0 +1,11 @@
+---
+:backends:
+  - yaml
+:yaml:
+  :datadir: "hieradata/master"
+:hierarchy:
+  - "%{environment}"
+  - "nodes/%{clientcert}"
+  - "%{::role}"
+  - common
+:merge_behavior: native

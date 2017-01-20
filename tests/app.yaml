@@ -1,0 +1,19 @@
+---
+java_version: 
+  assert: "6"
+memory:
+  assert: "memory size=128m"
+  facts: 
+    size: "128m"
+  clientcert: 
+    dc1-app-prod-01.pugme.co.uk: 
+      assert: "memory size=256m"
+      facts: 
+        size: "256m"
+system::disks:
+  assert: 
+    layout:
+      xvda:
+        root: "8G"
+        home: "2G"
+
