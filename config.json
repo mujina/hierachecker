@@ -1,0 +1,8 @@
+{ 
+  "hiera_yaml": "hiera.yaml",
+  "tests_path": "tests",
+  "debug": false,
+  "production": { 
+  }
+}
+  

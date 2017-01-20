@@ -1,0 +1,2 @@
+---
+apache2::server_name: "web_%{::pugme_environment}.%{::domain}"

@@ -1,0 +1,6 @@
+---
+apache2::server_name:
+  assert: "web_tsta.pugme.co.uk"
+  facts:
+    pugme_environment: "tsta"
+    domain: "pugme.co.uk"

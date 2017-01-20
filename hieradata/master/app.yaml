@@ -1,0 +1,9 @@
+---
+memory: "memory size=%{::size}"
+java_version: "%{hiera('java_version')}"
+system::disks:
+  layout: 
+    xvda: 
+      root: "8G"
+      home: "2G"
+
