@@ -1,6 +1,6 @@
 # Hiera Checker
 
-Courtesy of [Pugme Ltd](pugme.co.uk)
+Courtesy of [Pugme Ltd](http://pugme.co.uk)
 
 Hierachecker is a Ruby script for testing Hiera resolution indpendently of Puppet. 
 
@@ -112,9 +112,9 @@ You may also want to change the :merge_behavior: from 'native' to 'deep' or 'dee
 
 Hierchecker works by creating a scope to satisfy the hierarchy defined in hiera.yaml. At present the dynamic variables defined in hiera.yaml that make up the keys of this scope are hardcoded, so only the following keys may be used. 
 
-*environment: environment
-*role: ::role
-*clientcert: clientcert
+* environment: environment
+* role: ::role
+* clientcert: clientcert
 
 This limitation will be overcome in a later version. For example ::fqdn, trusted.certname and clientcert should all be suitable alternative keys for clientcert. 
 
