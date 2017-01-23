@@ -1,6 +1,2 @@
 ---
-<<<<<<< HEAD
 apache2::server_name: "web_%{::pugme_environment}.%{::domain}"
-=======
-apache2::server_name: "web_%{::kubix_environment}.%{::domain}"
->>>>>>> bc5e569e28852a3b5298bbc4fd1b0a84db9ef131

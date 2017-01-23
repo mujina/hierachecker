@@ -2,9 +2,5 @@
 apache2::server_name:
   assert: "web_tsta.pugme.co.uk"
   facts:
-<<<<<<< HEAD
     pugme_environment: "tsta"
-=======
-    kubix_environment: "tsta"
->>>>>>> bc5e569e28852a3b5298bbc4fd1b0a84db9ef131
     domain: "pugme.co.uk"
