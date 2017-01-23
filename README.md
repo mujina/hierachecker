@@ -15,6 +15,7 @@ It is released under the Apache 2.0 License.
 ## Standard Start
 
 The program is structured around a common precedence hierarchy of environments, roles and client configs, though Hierachecker should work for any precedence hierarchy you have adopted. 
+
 To get running with hierachecker, after setup you need to,
 
 * Create some tests
@@ -118,4 +119,3 @@ Hierchecker works by creating a scope to satisfy the hierarchy defined in hiera.
 This limitation will be overcome in a later version. For example ::fqdn, trusted.certname and clientcert should all be suitable alternative keys for clientcert. 
 
 I developed this script to allow me to test the Hiera config prior to a production platform migration. I didn't want to be debugging Hiera config on migration night. If you want to help develop it further contact me mujina@animate-it.org or raise a pull request. 
-
