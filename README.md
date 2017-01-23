@@ -24,12 +24,12 @@ To get running with hierachecker, after setup you need to,
 
 ### Setup
 
-Make sure you have a Ruby 1.9+ installed. Personally I prefer to install Ruby using [RVM](rvm.io) and then create a new Gemset for Hierachecker
+Make sure you have a Ruby 1.9+ installed. Personally I prefer to install Ruby using [RVM](http://rvm.io) and then create a new Gemset for Hierachecker
 
     rvm gemset create hierachecker
     rvm use ruby@hierachecker 
   
-First install the [Bundle](bundler.io) Gem and run bundle install to satisfy Gem depenedencies.
+First install the [Bundle](http://bundler.io) Gem and run bundle install to satisfy Gem depenedencies.
 
     gem install bundle
     bundle install
@@ -112,9 +112,9 @@ You may also want to change the :merge_behavior: from 'native' to 'deep' or 'dee
 
 Hierchecker works by creating a scope to satisfy the hierarchy defined in hiera.yaml. At present the dynamic variables defined in hiera.yaml that make up the keys of this scope are hardcoded, so only the following keys may be used. 
 
-  environment: environment
-  role: ::role
-  clientcert: clientcert
+*environment: environment
+*role: ::role
+*clientcert: clientcert
 
 This limitation will be overcome in a later version. For example ::fqdn, trusted.certname and clientcert should all be suitable alternative keys for clientcert. 
 
